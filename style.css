@@ -1,34 +1,53 @@
 body {
-
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
-
-}
-
-
-header {
-
-    background: black;
+    background: #0f172a;
     color: white;
+}
+
+/* HEADER */
+header {
     text-align: center;
-    padding: 40px;
-
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
 }
 
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
 
+header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* SECTIONS */
 section {
-
-    background: white;
-    margin: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #1e293b;
     padding: 20px;
-    border-radius: 10px;
-
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-
+/* TITLES */
 h2 {
+    color: #60a5fa;
+}
 
-    color: #333;
+/* LIST */
+ul {
+    padding-left: 20px;
+}
 
+/* CONTACT LINK */
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
