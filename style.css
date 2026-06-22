@@ -4,7 +4,14 @@ body {
     background: #0f172a;
     color: white;
 }
-
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #38bdf8;
+}
 /* HEADER */
 header {
     text-align: center;
